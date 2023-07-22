@@ -1,0 +1,369 @@
+Noah Hart
+Leon Mueller
+Stephen Q
+Marko Pavicic
+Michelle Maree
+Jacopo Dalmasso
+Shea Lewis
+Bradley Tramer
+Eli Carrington
+Gordon Frayne
+Miguel Adams
+Pascal Michel
+Jacob Peters
+mjzuppe
+ericbrotto
+codymcowan
+mrdap_
+Christine E. B. Howard
+Debbie
+Richard
+Arsène Lavaux
+Ratnadeep Bhattacharjee
+Anthony A. Nitsos
+Jose (Software Engineer)
+Sasha Chernyi
+Jason Schramm
+samay913
+yuska
+jerlevine
+michaelmoss
+Oleg
+Suraj Venkat
+Hera Li
+Alisha
+Livia
+Guilherme Fontes
+Chelsea Kaufman
+Marissa
+Sehaj
+Joe LaGrutta
+Chris M
+Jerry Hansana
+Brian Byun
+Dennison Berram
+Munir Pathak
+Amy M
+Pauline
+Preet
+bambiweavil
+andy
+chrishlavaty
+maduramaha
+daniel
+scottbeale
+Gaston Arbeletche
+Ed Cravo
+Phil
+Boris Stanic
+Kenji Tanaka
+Jamil Akhtar
+Shai
+Axel Lavergne
+Brian Keenan
+Dorian Scrima
+Richard
+Maria Vorovich
+Charlie Fogarty
+maxdoblin
+igorlev
+jwegener
+mikeroberts
+zinger
+Gaurav
+Dima Blyshchyk
+Bertrams Lukstins
+Shoayb Patel
+Ashley Porciuncula
+jared
+Stephen Quaderer
+Kareem Abukhadra
+Dmitry
+Max Berger
+Aaron Dragushan
+vipv
+Marina P
+Jenna Clark
+David
+Debs
+foodietrip
+morenoh149
+polyzeiler
+Virginie at AcornOak
+Nishant Thorat
+tyler kelly
+Carlos Ortiz Ramos
+Adam Edwards
+Alex Fernandez
+Rana
+John Chidiac
+alliejoy
+Pete
+Dev Jones
+Glenn Orgin
+Nick
+nicolas
+Kathryn
+michaelcalleia
+joshua-ness
+mikejkauffman
+csaper
+marcua
+itsandrew
+danielfolkman
+eric
+Anis Zehani
+TR
+Andrew Ishimaru
+Balint Bartha
+Carlo Thissen
+Bachana Biblaia
+Dr. Sean
+Alexandra
+Matt Grimes
+Santiago Bertinat
+Katie Lazell-Fairman
+Rinkesh
+Aravindh Dorai
+Lisa
+Gobi Dasu
+Martin Rada
+Galina Kalvatchev
+Carlos
+bear
+danielkdewar
+skinnyandbald
+aaronepperson
+stan
+podman
+gregors
+soufian
+kels
+chrismaddern
+andrewferenci
+shreyans
+Derek Strauss
+Anthony Santos
+ben_a
+Andrew
+charleshearn
+Hubert Dagbo
+Stephanie Slater
+Sandeep Todi / Truly
+MarieRJ
+Maxime Manseau
+Mauricio
+Marc Anthony Rodriguez
+Patrick Metzger
+Nick Devashvili
+GroshUncapped
+kevinroche
+Shantanu Sharma
+danortiz
+rui
+ipapas
+dennisplucinik
+Jason
+Itay Forer
+Olu
+Tyler Nee
+andyparsons
+Rahul Khosla
+polyzeiler
+tinaisrani
+jonp
+suzie
+tarikh
+c4milo
+Harrison Telyan
+Andrew
+Alexandr Tsiganko
+amos
+dave_at_tuzag
+wrmayo
+Ed Manzi
+maruti
+Ivan Lapcha
+Riley_RM4Tech
+dguido
+kurt
+Rodrigo Silva
+Lena Levine (Forcoda)
+Andrea Goren
+Robert
+joshogle
+Roman
+Taiga Kobayashi
+Pavel Adylin
+gabriel
+mfocaraccio
+Alex Kistenev
+moses
+Ed V.
+Denis Shilov
+Fatoumata D.
+William
+Dr. Sean
+User
+Vasily Danilenko
+Mohit Maheshwari
+Shuhei Saito
+Harry Dixon
+Justin Wolz
+Shane Sabine
+amandamccreight
+Harry Dixon
+Curtis from Wayviator.com
+kunjanshah
+AmagiAlpha
+Amir Ganjeii
+Marco Fiorito
+Alan Tugentman
+Michael Wytock
+Julian Sigal - CEO at BAIT
+ceonyc
+cotagonist
+Andrea Goren
+Benjamin (Build Scale Grow)
+dannels
+cfohlin
+Daniel
+Esra Kadah
+
+
+---- Director
+
+Kevin Drews
+Code Immersives NYC
+George
+alexiskold
+RK Sharma
+di
+poeks
+kathleenyanolatos
+Anastasia Holovachova
+Sarah Mooney
+Ty
+John Bellone
+Rebekah Mueller
+Lisa Chau
+jsocol
+Denny McFadden
+Murat Aktihanoglu
+Danielle Colanto
+Kaitlyn Orwig
+Tim Murphy
+Mike Luby
+dylan
+smerrill
+Pavel Laktionov
+lalit
+maxritt
+cfohlin
+danfried
+Christopher Cronk
+RichardTech93
+Denny
+Leon
+BillyEkofo
+amir_khan
+umair
+jrs2139
+george
+morganbrady
+bberman
+riten
+Keith Kennedy
+Art
+Racquel
+dshtem
+drewdahlman
+martinolson
+h0h0h0
+Lucas Davison
+Frankie Botero
+donavon
+evan_sandhaus
+gordondiggs
+phuong nguyen
+Rafael
+Oli Stockford
+Justin Murray
+tuluar ratliff
+hudson
+islabell
+melissa_smithseanoc
+jimmym
+adam.gotterer
+skoch
+
+
+---- CTO
+kellan
+jonwilliams
+Sam Texas
+whabib
+mikey
+ruyi
+Nicolas
+katanawhite
+dblock
+otto
+Vince Montalbano
+laurynas
+akennberg
+jack
+Peter Ng
+howie
+verkalets
+vijay
+hhunter
+nvalentine
+skamille
+peterwang
+Dmytro Kondratovych
+madadam
+gautamg
+Juan Tubert
+andyparsons
+ilangoodman
+mpestritto
+iamrgon
+jamtur01
+ckorhonen
+Jimmy Fountain
+Sergio Pereira
+amy
+jgoulah
+Christopher Bunk
+kyle
+lonbinder
+bigbny
+Marc Adler
+
+------ Entrepreneur
+Hardik Modha
+Nitesh Kumar
+Paul Gaglioti III
+joantona
+vijayvijay
+jgeovani
+zeb
+Hanish Kiran
+George Stamatis
+Jose
+bmuller
+yo
+Lisa Chau
+Owen
+
+----- Investor
+karan
+Mason
+morganpolotan
+Arthur
+sebastian
+Tomás Güida
+rbpasker
+Christine Hong
+Pat Zailckas

@@ -1,0 +1,49 @@
+ Wonderluster, Vancouver, Canada
+
+Me: Kenneth Battle, Finland
+
+We are looking for a senior OpenAI developer to build an intelligent dental chatbot that will be sold to dental clinics and dentists. The chatbot will be integrated into their websites to provide dental-related information and services to patients. The chatbot should have Tidio-like capabilities with OpenAI features to ensure natural language processing and provide personalized responses to patients' inquiries. The chatbot will have a SaaS website frontend where users can sign up and pay with a free trial option. It should have a backend functionality like Tidio and allow each dentist to customize and train their chatbot with specific information like hours of operation, services available, etc. Additionally, the chatbot should have appointment scheduling capabilities either standalone or integrated with the existing scheduling system. The chatbot and database architecture should be scalable across different niches other than dental, such as yoga, golf, martial arts, parenting, etc.
+
+Responsibilities:
+* Conduct a thorough analysis of the dental industry and the target audience to identify the gaps and unique features that the chatbot should have.
+* Design and develop the architecture of the front-end SaaS website, back-end functionality, and database using cloud-based solutions and database technologies.
+* Develop the chatbot with OpenAI features and natural language processing algorithms to provide personalized responses to patients' inquiries.
+* The chatbot will have customizable features that enable dentists to train and customize the chatbot with specific information that is unique to their dental clinic. This includes but is not limited to:
+    * Hours of Operation: Dentists can customize the chatbot with their clinic's working hours, including opening and closing times, weekend availability, and holidays.
+    * Services Available: Dentists can customize the chatbot to include a list of services they offer, such as routine check-ups, cleanings, fillings, extractions, and cosmetic treatments. They can also add details about the procedures, including how long they take and what patients can expect.
+    * Insurance and Payment Options: Dentists can customize the chatbot to include information about the insurance plans they accept, payment options, and any financing or installment plans available.
+    * Dental Care Tips: Dentists can customize the chatbot to provide patients with dental care tips, including brushing and flossing techniques, dietary advice, and preventive measures.
+    * Frequently Asked Questions (FAQs): Dentists can customize the chatbot to answer frequently asked questions that patients may have about their clinic or dental procedures. They can add their own FAQs or use pre-existing ones.
+    * Special Offers and Discounts: Dentists can customize the chatbot to promote special offers and discounts they may be offering on dental procedures or services.
+    * Personalized Messages: Dentists can customize the chatbot to include personalized messages that greet patients by their name and offer them assistance in scheduling appointments or answering any queries they may have.
+    * The dentist will have full control over customizing and training the chatbot to ensure that it reflects their brand and values. With these customized features, the chatbot will provide patients with accurate and relevant information and improve their overall experience with the dental clinic.
+* Develop appointment scheduling features that allow patients to schedule appointments either standalone or integrated with the existing scheduling system. Dentists will have the option to choose the appointment scheduling software that they are currently using or prefer to use in the future. The following appointment scheduling software are the top dental scheduling software on the market and can be considered as integration options for the chatbot:
+    * Dentrix
+    * Eaglesoft
+    * Open Dental
+    * Curve Dental
+    * Carestream Dental
+* Architect the chatbot and database to be scalable and customizable across different niches other than dental, such as yoga, golf, martial arts, parenting, etc.
+
+Requirements:
+* Proven experience in building scalable and customizable chatbot solutions with cloud-based solutions and database technologies.
+* Proficient in Python, JavaScript, HTML, and CSS.
+* Familiarity with AI/ML algorithms, deep learning, and data modeling techniques.
+* Experience in developing chatbots for the healthcare industry is a plus.
+* Familiarity with web development frameworks, such as React, Angular, or Vue.js, is a plus.
+* Experience in developing RESTful APIs is a plus.
+* Familiarity with AWS, Google Cloud, or Azure is a plus.
+
+
+
+
+About the client Member since Jun 16, 2015
+Canada
+Vancouver
+581 jobs posted
+39% hire rate, 3 open jobs
+$63K total spent
+295 hires, 24 active
+$8.71 /hr avg hourly rate paid
+2,924 hours
+Media & Entertainment

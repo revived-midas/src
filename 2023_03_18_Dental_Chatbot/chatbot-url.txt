@@ -1,0 +1,16 @@
+https://github.com/afrijaldz/express-sequelize-starter
+https://github.com/neat-soft/node-express-mysql-sequelize
+
+
+https://github.com/app-generator/api-server-nodejs
+https://github.com/app-generator/react-purity-dashboard
+
+
+https://github.com/daydream54/express-babel-boilerplate
+
+
+
+https://demos.creative-tim.com/docs-purity-ui-dashboard/docs/getting-started
+
+this is more useful
+https://chakra-ui.com/getting-started

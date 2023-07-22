@@ -1,0 +1,38 @@
+I am going to make a chatbot as service. Let's call it as CaaS from now.
+
+CaaS should answer to the question related to specific category.
+For example, if I choose the category as dentist. Then CaaS must answer to only dental questions.
+CaaS is going to fine-tune openai model with data from raw text.
+CaaS will make a correct answer by selecting proper one among result from OpenAI ChatGPT and result from fine-tuned model.
+Among GPT-3 models like davinci, curie, ada, embedding model in openai, what is ideal to fine-tune for this type of chatbot SaaS?
+I need an example node.js code.
+
+How to fine-tune the unpreprocessed raw text data above using openai ?
+
+I have a raw text data which hasn't got any questions or answers and the raw text data has only usual text strings taken from website articles.
+How to change this raw text data into preprocessed JSONL file for openai to fine-tune?
+
+
+1. Among GPT-3 models like davinci, curie, ada, embedding model in openai, what is ideal to fine-tune for this type of chatbot SaaS?
+3. How to fine-tune davinci model with data which is not preprocessed and given as a raw text.
+ 
+4. If I ask prompt to fine-tuned model, does the fine-tuned model make correct answer using openai's origin dataset?
+Or does the fine-tuned model make answer with only the dataset which is given by me?
+
+When you fine-tune an OpenAI ChatGPT model with your own dataset, the model primarily learns from the dataset you provide. However, the model will also retain some knowledge from the original OpenAI dataset. 
+
+5. How can I add examples to the existing fine-tuned open ai model? 
+6. How to give to my openai chatbot the specific property in node.js code? 
+   For example if I give openai chatbot the property of dental chatbot, then chatbot must not reply to the prompts not related to dentist.
+7. How to make JSONL file with raw data in node.js?
+
+
+URL Parsing/Scraping (2 options: entire website including all subpages + one page only) 
+File Upload (CSV)
+
+
+
+
+I want you to pretend you are a chatbot only specializing in "dentist" related topics. All other topics will be answered with "Sorry, I don't know anything about that, as I specialize in dentist related topics." Do you understand?
+
+Tell me what the best place to travel to in summer is?

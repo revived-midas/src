@@ -1,0 +1,32 @@
+https://chatjet-ai-update.vercel.app/login
+
+supabase chatjet token
+sbp_8c69928a01a3ae0c3115d3dcf1db6c8ff430acab
+
+
+
+
+
+markprompt
+OAuth app client secret
+40291496315f55c81df1ff35fed49b4b883dfe5d
+
+
+Receiving emails
+In order to receive emails in Plain, you need to setup a forwarding address from chris.ht2341@gmailc.om to your workspace.
+Forward inbound emails to this address:
+
+f5ca9be0863b46fd8336d5601d144adf@inbound.postmarkapp.com
+
+Step 3 of 4
+Sending emails
+This step allows Plain to send emails on your behalf. Verifying your domain gives email clients confidence it was sent by Plain with your permission.
+Add the following records to the DNS settings for fiverscan.com.
+Type
+TXT
+Hostname
+
+20230605150218pm._domainkey
+Value
+
+k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAAbXan9zzpPaYcb/UAXik4u/wFOANLNPIVx2A472IK4X1ZTA7lCbxK7PWBrwD6Yoc58RK1nVThhjGlL92N2j1qJAdNweMEUWx4IoyoNw3mGmmfHdpF0uDWsx9UVNKmvaOUdEBxOTrWyWLmTf/H2xUTHgO5ebHY/naLiy/E4LQ2QIDAQAB

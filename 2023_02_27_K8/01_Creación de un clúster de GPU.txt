@@ -1,0 +1,14 @@
+Creación de un clúster de GPU
+$30.00 – 250.00 USD
+Bid 700.00 USD
+
+Se cuenta (en oficina) con una cantidad X de tarjetas gráficas RTX 3090, las cuales se desean utilizar para crear un clúster de GPU utilizando la plataforma de gestión de clúster Kubernetes (o similar). El clúster debe ser configurado de manera que se pueda gestionar una cantidad X de esas tarjetas gráficas, las cuales serán usadas con el software FreqTrade/FreqAI. A la vez, cada nodo tendrá a su disposición una cantidad X de esas tarjetas. En principio se contará con un rango variable de tarjetas, que van de 10 a 70. Los nodos deberán ser configurados de manera que se puedan comunicar empleando TCP/IP, a no ser que se recomiende un protocolo diferente por ser mejor o más óptimo.
+
+También, se requiere que el clúster quede configurado de manera que pueda ser fácilmente administrado, con lo cual se pueda verificar el rendimiento de las GPU, ajustar la asignación de recursos, solucionar problemas, etc.
+
+Además, dado que el trabajo se estaría realizando de manera remota, es necesario que se nos indique los requerimientos y las instrucciones para montar, de manera básica, cada uno de los nodos y su respectiva configuración básica para que puedan ser accedidos de manera remota.
+
+Skills Required
+
+Linux
+Kubernetes

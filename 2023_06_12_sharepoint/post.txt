@@ -1,0 +1,24 @@
+https://www.upwork.com/jobs/~012896faf6a95bb324
+Cl: Lul Woreta
+Me: Andrew JackSon
+hervey.jasson@minofangle.org
+
+Turn off ability to add new resumes to SharePoint document library personal.aspx
+
+United States
+Silver Spring 12:29 pm
+63 jobs posted
+100% hire rate, 2 open jobs
+$6.2K total spent
+73 hires, 6 active
+$20.00 /hr avg hourly rate paid
+2 hours
+Large company (1,000+ people)
+Member since Jul 30, 2018
+
+SharePoint 2016:
+- Turn off ability to add new resumes in document library
+- Each personal site collection administrator will be a service account instead of the user.
+- Users will have read access and unable to upload any documents to their personal document library.
+- Users should not be able to modify permissions on their personal site library
+- New personal sites created should not add the users to the site as a site collection admin.

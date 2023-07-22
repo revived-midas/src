@@ -1,0 +1,38 @@
+Roadmap
+https://docs.google.com/document/d/1AbBVnvzQ7x3VdbRRHGCySzVanu9WVrw5CJ-vcsbK2FE/edit
+
+Requirements
+https://docs.google.com/document/d/18R4lphaPPYiCcAeygam2xp0LKzpNucrow7mTvjtSdeQ/edit#
+
+
+https://www.creative-tim.com/learning-lab/material-ui/avatar/argon-dashboard/
+https://github.com/creativetimofficial/argon-dashboard-material-ui/tree/main/src
+
+https://mui.com/material-ui/icons/
+
+masseur
+
+
+https://github.com/marmelab/react-admin
+Very good for products
+https://marmelab.com/react-admin-demo/#/customers/561
+
+https://github.com/minimal-ui-kit/material-kit-react
+dataTABLE
+https://minimal-kit-react.vercel.app/dashboard/app
+
+
+https://github.com/flatlogic/react-material-admin?utm_source=morioh.com&ref=morioh.com
+datatable-best
+https://flatlogic.github.io/react-material-admin-full/#/app/profile
+
+https://github.com/puikinsh/Adminator-admin-dashboard
+html dashboard free
+https://colorlib.com/polygon/adminator/index.html
+
+https://github.com/ilhammeidi/boss-lite
+react
+
+
+https://codesandbox.io/s/funny-gagarin-57t2yg?file=/demo.jsx
+edit dialgo

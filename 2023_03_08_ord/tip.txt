@@ -1,0 +1,36 @@
+stringify_pretty    jsonxf
+
+-Clear REDB
+index.crates.io/redb-0.13.0/src/db.rs:629
+use_nmap: true (->false)
+
+676 true -> false
+
+"/home/ubuntu64/.local/share/ord/regtest/index.redb"
+
+
+bitcoin-cli -generate 101 
+get address from 2nd node
+
+bitcoin-cli -datadir=/tmp/datadir2/ getnewaddress
+send coins to 2nd node
+
+bitcoin-cli sendtoaddress <address> 10.0
+
+bitcoin-cli -regtest generatetoaddress 100 bcrt1p7l75cg69dp9h39h0qwn5xneks859z2mhzkvnp8tspy6lu0tc9ekq22cxm9   
+
+
+- terminal
+:~$ bitcoind -txindex
+
+:~/work/ord/target/release$  sudo ./ord --regtest --cookie-file "/home/ubuntu/.bitcoin/regtest/.cookie" --bitcoin-data-dir "/home/ubuntu/.bitcoin/datadir"  --rpc-url 127.0.0.1:18443 server
+
+:~/work/ord$ clear & cargo build --release
+
+:~/work/ord/target/release$ sudo ./ord --regtest --cookie-file "/home/ubuntu64/.bitcoin/regtest/.cookie" --bitcoin-data-dir "/home/ubuntu64/.bitcoin/datadir"  --rpc-url 127.0.0.1:18443 wallet inscribe 1.jpg --metadata "clothes:trendy"
+
+:~/$ bitcoin-cli -regtest generatetoaddress 100 bcrt1pf30mnkuhyq5vv5m7dq0wh5nnzxwhj3jm7f0gc93daecwuy3hsl4s7d95hg
+
+:~/.bitcoin$ sudo bitcoind -regtest -port=18334 -rpcport=8333 -datadir="/home/ubuntu64/.bitcoin/datadir2" -rpcuser="test" -rpcpassword="test"
+
+sudo code --user-data-dir="./.vscode" --no-sandbox

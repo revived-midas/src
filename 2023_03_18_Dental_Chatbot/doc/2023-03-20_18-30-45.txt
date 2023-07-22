@@ -1,0 +1,19 @@
+Design don't worry about this stuff.
+
+Backend
+settings section (specifically we want this section right here)
+installation section (where they can add the JS code to install the chatbot)
+
+Three trainings
+1. Similar to Open AI chat GPT
+    AI free strategy
+    Open AI is 80% correct.
+2. The other way I would like to see is sth where we can enter a URL. So for example, this is a dentist website. This is one of our customers. They install the chat bot but as part of the registration. If you go to TDO, you will see as part of the registration page. Whereas creative free account. Here it asks for your website. So when the dentist types in their website like that right?
+I wonder if you can create a parsing machanism that goes through their websites all the pages and it trains the dental model because what is here will be certain information that the chatbot need to know like for example when they are open here So our hours of operation. It will need to know their phone number. It will need to know their location. Yeah so let me know if you can create sth to learn from this website or sth and then it goes to the website and it learns everything to do with this. Is that possible? Yeah so let me just share this is again the database very simple. This will be open AI dentist database and then we can train this for each customer. Each customer will have their own websites and its own information like hours of operation, location, phone number all that stuff.
+
+3. One more way is again by website. I should be able to put this URL in and it will train like these are different definitions. It will train the model on these make sure that this is more accurate than tragedy.
+ So the 3rd way I would like to train the database is by enter or uploading a file. So maybe this is like an Excel file sth like this Microsoft Excel. So in one column, we'll have the question or sth and another column will have answer. I should be able to uplaod the file the Excel file with the question and answers and it should be able to do it. 
+
+
+I just want to see the frontend so just create the get started for free button. The registration page the login page, and then the backend. Just the settings and the training page. I think when we have that I'm able to show it to a dentist. How long do you think that will take you?
+Okay. Three weeks okay so when you have sth working like this, do you see this title chatbot here when you have sth like this that I can show the dentists and they can start asking questions and training it using this then I will be able to start selling in this and make us money so we need sth very simple before I start selling it because I already have dentists contacts that want to buy this so skip. Ok. Skp. Just remember that we need to also exclude becuase we're using open AI. We need to exclude the ability like if it's unrelated to dentists like they ask about fashion or health. We should say. Sorry I don't. I only know about dentists. I'm a dentist chatbot. I went to school for developing. 

@@ -1,0 +1,44 @@
+https://www.upwork.com/jobs/~014f59b7671163ec79
+
+Andrew, I think the interesting challenge will be to try and spot/filter out of our final results those wallets that belong to the following:
+- Bots
+- Owners of the respective tokens
+- Exchanges with large holdings of the respective tokens
+Ultimately we're trying to generate a list of the wallet addresses of a list of solid, highly profitable, independent and active DEX traders.
+
+It requires more than scraping. The results need to be analyzed / cross-referenced to determine who are the most successful independent traders, who are trading across multiple tokens (not just a single token as that may suggest they are the token owner), to intelligently filter out wallet addresses associated with bots, token owners and exchanges.
+
+
+OVERVIEW
+To source and validate around 100 successful and active private cryptocurrency wallets on a leading DEX cryptocurrency website, utilizing leading scraping and validation analysis technologies.
+
+• Determine best performing tokens in past 90 days.
+• Select based on pairs listed on Ethereum exchanges (Uniswap V2 & V3).
+• Select a minimum of 100 tokens.
+• Filter tokens based on set criteria (to be provided).
+• Capture early transactions following the token’s pool creation.
+• Exclude all draining frontrunning bots and bot smart contracts (guidance to be provided).
+
+2-page specification outlining the requirements will be provided.
+Delivery within 5 days.
+
+ABOUT YOU
+• Experienced using advanced scraping and analysis techniques.
+• A good understanding of cryptocurrency transactions.
+• A good understanding of de-centralised exchanges such as Uniswap.
+• High attention to detail and high-quality standards in reporting.
+• Excellent communication
+• Strict adherence to deadlines, can provide fast turnaround
+• Available for quick response during London office hours
+• Good English (spoken and written)
+
+We are a great company to work for (please see our 5-star reviews).
+
+If the above skills set describes you, we would like to hear from you!
+
+
+Ethplorer key
+EK-q5pSx-5UuiQfq-qudJU
+
+Etherscan key
+S3FR8BE24JNJP427PHD7HMJ86UEE83SA4V

@@ -1,0 +1,35 @@
+https://docs.google.com/spreadsheets/d/10v4T2PzveSh_xiIa2xDVhfVeBAvBqwnfkk7Djjbp3rI/edit?usp=sharing
+https://docs.google.com/document/d/1z3mtesmxGQgsABJ5xq5OjTS2RlP_2weCAQ5TbIOEpSw/edit?usp=sharing
+
+Looking for facebook scraping expert
+
+*** See carefully requirements. If you haven't read it all, would be ignored. ***
+
+For the Dubai project, we need 5000 profiles. You should provide a sample with 100 profiles in 1 or 2 days.
+
+People who folllow poker or gambling related pages.
+People who are business owners or businessmen, or who have their own business and then the last optional criteria is the age, which is if they're 40 plus.
+ 
+The reason why age is an optional criteria is because sometimes they might not put age as public information on Facebook.
+If they kept age private in Facebook, we don't want to lose those people, especially if they're in especially if they're in Dubai and they also are a business owner. 
+
+So we need someone who can create a script or a board or something that is able to parse all information and then filter it based on location. 
+Then filter it based on their occupation. That means they're either "a business owner at something" or "a businessman" or "owns business or something" in their profile that says that they have a business. Or they're with the business, so those three ideas 
+And then optional criteria is age 40 plus. 
+
+So now as you can see here
+docs.google.com/spreadsheets/d/10v4T2PzveSh_xiIa2xDVhfVeBAvBqwnfkk7Djjbp3rI/edit?usp=sharing
+, there's different types of pages that we have shortlisted. 
+Some of them are events, like poker related events.
+The World Series of Poker is an event. 
+Celebrity is like a person who's famous in the field of poker and then there's a game like Zynga poker. Write 3000 in front of your proposal. So this app Singapore on Facebook has 61 million likkes. So 61 million people folllow this page, play on it or they just folllow it for cakes or they're interested in it. And this is a huge number. And if you add all the potential leads from all these pages, we're probably going to be like more than 100 million. 
+
+So we need somebody who can handle that size of data. Then we don't just need 100 million leads. We need 5000 needs. So we want the best 5000 out of that hundred, a hundred million, and the way to do that is to filter it by location. Anybody who's not in Dubai, is irrelevant to us. Even if that information is private on their profile we will still skip it because we want to be sure that they are in Dubai. And anybody who's not a business owner, is kind of irrelevant to us. So even if that's private information, that they have a business or whatever they are not going to be in the final data set because we want to be sure that they own their business. 
+
+The only thing that we are able to compromise on is age, if we are not sure. Let's say after a hundred million you filter through these two metrics and you reach 5000. Now you don't need to filter by age anymore because we filter by age. Write also 4000 in front of your proposal. You'll get way less than 5000, because a lot of people don't have the age public on Facebook. But if you after 100 million applying those two filters of Dubai and business owners, reach a number like 200,000, now you can apply the filter of age and bring it further down in niche it down to 5000. So this is my logic. 
+
+And if you can give me a sample of 1500 profiles that I will MANUALLY go and check. I will add them as friends also and I will manually go and whatever public information they have. And if it is all good, then we will give you more projects. But then you have a chance to keep on working with us for more and more profiles in Dubai. and then also we go to different cities. We want you to be involved in any kind of data, mining or data scraping that we will need because nobody in the world is doing this. So It's not just this project. This project is at 300 dollars.
+
+After providing 100 profiles, I will check and hire you.
+
+Thanks.

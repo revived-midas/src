@@ -1,0 +1,27 @@
+I am asking for implementing new alert messages into Stochastic indicator. The present code just sends out general alert messages named: “Stochastic Crossing”.
+
+New separated alert settings as following:
+
+1. New Alert Message: “Stochastic Continuing” for
+ArrowUpClr = Yellow;
+ArrowDnClr = Magenta;
+
+2. New Alert Message: “Stochastic Reversing” for
+ArrowUpRevClr = DeepSkyBlue;
+ArrowDnRevClr = LimeGreen;
+
+Important conditions for No. 2: This alert message should be sent only, if the previous candle triggered an “Stochastic Crossing”! Only the prior candle! No “Stochastic Reversing” alert message if 2; 3 or more candles past already!
+This alert should be possible to set “True” or “False” as external Input options.
+
+Unchanged Alert Message: “Stochastic Crossing” for
+ArrowInZoneUp = clrWhite;
+ArrowInZoneDn = clrRed;
+
+Likewise other external Input settings shouldn’t be changed. I use the 1 Minute Time Frame mainly.
+Please check the screen shot attached!
+
+Provided files:
+- Template
+- Stochastic Indicator
+- Heiken Ashi Indicator
+- Screen Shot

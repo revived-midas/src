@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'ord'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=ord"
+                ],
+                "filter": {
+                    "name": "ord",
+                    "kind": "lib"
+                }
+            },
+            "args": [
+                "inscribe_over_max_standard_tx_weight"
+            ],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                // "RUST_BACKTRACE": "full",
+            }
+        },
+        // {
+        //     "type": "lldb",
+        //     "request": "launch",
+        //     "name": "Debug executable 'ord'",
+        //     "cargo": {
+        //         "args": [
+        //             "build",
+        //             "--bin=ord",
+        //             "--package=ord"
+        //         ],
+        //         "filter": {
+        //             "name": "ord",
+        //             "kind": "bin"
+        //         }
+        //     },
+        //     "args": [],
+        //     "cwd": "${workspaceFolder}"
+        // },
+        // {
+        //     "type": "lldb",
+        //     "request": "launch",
+        //     "name": "Debug unit tests in executable 'ord'",
+        //     "cargo": {
+        //         "args": [
+        //             "test",
+        //             "--no-run",
+        //             "--bin=ord",
+        //             "--package=ord"
+        //         ],
+        //         "filter": {
+        //             "name": "ord",
+        //             "kind": "bin"
+        //         }
+        //     },
+        //     "args": [],
+        //     "cwd": "${workspaceFolder}"
+        // },
+        // {
+        //     "type": "lldb",
+        //     "request": "launch",
+        //     "name": "Debug integration test 'integration'",
+        //     "cargo": {
+        //         "args": [
+        //             "test",
+        //             "--no-run",
+        //             "--test=integration",
+        //             "--package=ord"
+        //         ],
+        //         "filter": {
+        //             "name": "integration",
+        //             "kind": "test"
+        //         }
+        //     },
+        //     "args": [],
+        //     "cwd": "${workspaceFolder}"
+        // },
+        // {
+        //     "type": "lldb",
+        //     "request": "launch",
+        //     "name": "Debug unit tests in library 'test-bitcoincore-rpc'",
+        //     "cargo": {
+        //         "args": [
+        //             "test",
+        //             "--no-run",
+        //             "--lib",
+        //             "--package=test-bitcoincore-rpc"
+        //         ],
+        //         "filter": {
+        //             "name": "test-bitcoincore-rpc",
+        //             "kind": "lib"
+        //         }
+        //     },
+        //     "args": [],
+        //     "cwd": "${workspaceFolder}"
+        // },
+        // {
+        //     "type": "lldb",
+        //     "request": "launch",
+        //     "name": "Debug executable 'ord'",
+        //     "cargo": {
+        //         "args": [
+        //             "build",
+        //             "--bin=ord",
+        //             "--package=ord"
+        //         ],
+        //         "filter": {
+        //             "name": "ord",
+        //             "kind": "bin"
+        //         }
+        //     },
+        //     "args": [
+        //         "--regtest",
+        //         "--cookie-file=/home/ubuntu64/.bitcoin/regtest/.cookie",
+        //         "--bitcoin-data-dir=/home/ubuntu64/.bitcoin/datadir",
+        //         "--rpc-url=127.0.0.1:18443",
+        //         // "server"
+        //         // "wallet",
+        //         // "inscribe",
+        //         // "1.jpg",
+        //         // "--metadata=for test1"
+        //     ],
+        //     "cwd": "${workspaceFolder}/target/debug",
+        //     "env": {
+        //         "RUST_BACKTRACE": "1",
+        //     },
+        //     // "program": "${workspaceFolder}/target/debug/ord",
+        //     "console": "integratedTerminal",
+        // },
+    ]
+}

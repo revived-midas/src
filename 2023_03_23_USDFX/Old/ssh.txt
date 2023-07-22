@@ -1,0 +1,5 @@
+ssh-keygen -t rsa
+sudo nano ~/.ssh/authorized_keys
+public key
+
+ssh -i 15.206.228.128.bitnami bitnami@15.206.228.128

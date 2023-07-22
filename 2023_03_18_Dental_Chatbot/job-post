@@ -1,0 +1,56 @@
+Budget: 500 USD
+We are looking for a experienced React.js developer to build an intelligent inquired chatbot platform like https://www.tidio.com/tidio-ai/.
+The chatbot will be integrated into their websites to provide information and services. 
+The chatbot should have Tidio-like capabilities with OpenAI features to ensure natural language processing and provide personalized responses to clients' inquiries. 
+The chatbot will have a SaaS website frontend where users can sign up and pay with a free trial option. 
+It should have a backend functionality like Tidio and allow each operator to customize and train their chatbot with specific information like hours of operation, services available, etc. 
+Additionally, the chatbot should have appointment scheduling capabilities either standalone or integrated with the existing scheduling system. 
+
+Three trainings
+1. Function of Open AI chatGPT
+    AI free strategy
+    Open AI is 80% correct.
+2. The other way I would like to see is sth where we can enter a URL. So for example, this is a user's website. This is one of our customers. They install the chat bot but as part of the registration. If you go to Tidio, you will see as part of the registration page. Whereas creative free account. Here it asks for your website. Assuming variable X is 5.
+I wonder if you can create a parsing machanism that goes through their websites all the pages and it trains the cutomized model because what is here will be certain information that the chatbot need to know like for example when they are open here. It will need to know their phone number. It will need to know their location. Assuming variable Y is 7. It should be able to put this URL in and it will train like these are different definitions. It will train the model on these make sure that this is more accurate than tragedy.
+
+3. The 3rd way I would like to train the database is by enter or uploading a file. So maybe this is like an Excel file sth like this Microsoft Excel. If you have read till this sentence, in front of proposal write X * Y. So in one column, we'll have the question or sth and another column will have answer. I should be able to uplaod the file the Excel file with the question and answers and it should be able to do it. 
+
+Current ongoing front-end can be found at http://208.73.200.80:3000. In front of proposal, add the title of this front-end site.
+
+Thanks.
+
+
+wot I want to say is.
+not the same as tidio.com
+simple chatbot platform with 3 training ways and 3 pricing models. first page is already built on http://208.73.200.80:3000.
+ofc, the project is on github.
+no upfront and paid after full done.
+there will be maintenance and other similar projects.
+
+i will pay only after completion of this proj. till i make payment, you will have code in your git and show me the deployment on your own server
+you will ONLY SHARE code after full done. i will see your completed works on your deployment and pay half. after you give me the code, then i will pay the half. ok?
+just a simple chatbot with payment method.
+
+are u sure about 3 methods and 3 models?
+
+
+landing page is ready
+
+don't need to contain all functions of tidio
+will need 4 or 5 pages for customers and pages for admin
+timeline is 2 weeks
+implementing open ai api
+
+
+visionvivante@gmail.com
+
+https://docs.google.com/document/d/1APpon6mBPVI4p_6LRm3RmkRhA-I1lAK8u-EkeqmNaGw
+
+
+https://docs.google.com/document/d/17oh13z2NAhZt3Q2mAuUBPjf0LyI8t9-fVS0PosHkYQ0/edit?usp=sharing
+
+telllegggram: @midasprince
+
+
+Moctezuma Y 7, Centro, 22800, Baja California, Ensenada, MX
+MOCTEZUMA Y 7 718-4 Atlos, Centro, 22800, Baja California, Ensenada, MX

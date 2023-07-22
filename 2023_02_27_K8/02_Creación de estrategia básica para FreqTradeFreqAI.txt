@@ -1,0 +1,23 @@
+Creación de estrategia básica para FreqTradeFreqAI
+$30.00 – 250.00 USD
+BID 400.00
+
+Se requiere la creación de una estrategia básica para ser usada en FreqTrade/FreqAI. En la misma se debe definir el uso de los siguientes indicadores:
+
+- SSL
+- Vortex
+- Open Interest
+- SMIIO
+- CRSI
+- EMAS
+- POB
+- Volumen neto
+- ADX-DI
+- Regresión Lineal
+- Soporte/Resistencia
+
+Para más información de los indicadores solicitados, algunos han sido vistos en TradingView y/o Binance.
+
+Skills Required
+Python
+Finance

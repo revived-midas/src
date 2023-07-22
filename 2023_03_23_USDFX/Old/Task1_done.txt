@@ -1,0 +1,56 @@
+wrong Locked value 
+i will write you the subscription plans calculation:
+5:43 PM
+Starter Package:
+5% return rate per year
+Investment locked in for 90 days
+Paid in USDFX coin
+Formula: Total earnings = (Subscription amount  0.05) + (Subscription amount  0.05 * (90/365))
+Silver Package:
+10% return rate per year
+Investment locked in for 180 days
+Paid in USDFX coin
+Formula: Total earnings = (Subscription amount  0.10  (180/365))
+Gold Package:
+15% return rate per year
+Investment locked in for 270 days
+Paid in USDFX coin
+Formula: Total earnings = (Subscription amount  0.15  (270/365))
+Premium Package:
+20% return rate per year
+Investment locked in for 365 days
+Paid in USDFX coin
+Formula: Total earnings = (Subscription amount * 0.20)
+
+
+2nd error, on deposit.  Here is the plan the plan for users to make a deposit and subscribe to the packages involves the following steps:
+
+Users will need to connect their Metamask wallet to the platform.
+Once connected, the balance in their Metamask wallet denominated in USDT (Tether) will be displayed on the platform.
+Users will then need to make a deposit into their account on the platform in order to subscribe to one of the packages.
+The deposit can be made using USDT, which will be used to purchase USDFX coin at the current market price.
+Once the deposit has been made and the USDT has been exchanged for USDFX coin, users can choose which package they want to subscribe to and the amount they want to invest.
+The platform will then calculate the expected returns for the chosen package based on the investment amount and subscription period.
+Users can then confirm their subscription and the investment amount will be locked in for the chosen subscription period.
+At the end of the subscription period, users will receive their returns in USDFX coin, which they can then exchange for other cryptocurrencies or fiat currencies.
+
+
+the plan for users to use the exchange platform involves the following steps:
+
+Users can log in to the exchange platform using their account credentials.
+Once logged in, users can view their balance denominated in USDT on the platform.
+Users can then use the swap feature on the platform to convert their USDT to USDFX coin, either on-chain or off-chain.
+If the swap is done on-chain, the conversion will be processed directly on the blockchain network, while off-chain swaps are processed through an off-chain transaction mechanism.
+Users can also use their USDT balance to exchange USD to Philippine peso, if this feature is available on the platform.
+The exchange rate for the conversion of USDT to USDFX or USD to Philippine peso will be determined by the current market rates.
+Once the conversion or exchange is complete, the updated balance in the user's account will be reflected on the platform.
+
+
+3rd
+Data syncing issues: The affiliate list may not be syncing properly with the underlying data sources, which  result in incomplete data is not showing
+
+
+but they still dont see the investments made on their downline
+every affiliate have a total investment
+now on the affiliate page you will see that it only shows one investment
+They need to see the names and the total amount of investment made by their downline

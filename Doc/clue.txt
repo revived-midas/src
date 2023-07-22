@@ -1,0 +1,48 @@
+1. clone other's repo (they committed this repo in 2016 or 2017 or whenever)
+2. change their git commit into yours (using that command)
+3. push that repo to your github repo
+
+
+git filter-branch -f --env-filter '
+CORRECT_NAME="Mid@s"
+CORRECT_EMAIL="jackson.andrew2244@gmail.com"
+if [ "$GIT_COMMITTER_EMAIL" != CORRECT_EMAIL ]
+then
+    export GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE"
+    export GIT_COMMITTER_NAME="$CORRECT_NAME"
+    export GIT_COMMITTER_EMAIL="$CORRECT_EMAIL"
+fi
+if [ "$GIT_AUTHOR_EMAIL" != CORRECT_EMAIL ]
+then
+    export GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE"
+    export GIT_AUTHOR_NAME="$CORRECT_NAME"
+    export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
+fi
+' --tag-name-filter cat -- --branches --tags
+
+user.name=midas-joker
+user.email=jackson.andrew2244@gmail.com
+
+
+
+
+git filter-branch -f --env-filter '
+CORRECT_NAME="HuntΞr"
+CORRECT_EMAIL="chris.ht2341@gmail.com"
+if [ "$GIT_COMMITTER_EMAIL" != CORRECT_EMAIL ]
+then
+    export GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE"
+    export GIT_COMMITTER_NAME="$CORRECT_NAME"
+    export GIT_COMMITTER_EMAIL="$CORRECT_EMAIL"
+fi
+if [ "$GIT_AUTHOR_EMAIL" != CORRECT_EMAIL ]
+then
+    export GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE"
+    export GIT_AUTHOR_NAME="$CORRECT_NAME"
+    export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
+fi
+' --tag-name-filter cat -- --branches --tags
+
+
+user.name=HuntΞr
+user.email=chris.ht2341@gmail.com

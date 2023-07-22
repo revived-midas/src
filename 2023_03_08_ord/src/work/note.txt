@@ -1,0 +1,19 @@
+sudo ./ord --regtest --cookie-file "/home/ubuntu64/.bitcoin/regtest/.cookie" --rpc-url 127.0.0.1:18443 server
+
+alias ord='/home/ubuntu64/work/ord/target/debug/ord --regtest --cookie-file "/home/ubuntu64/.bitcoin/regtest/.cookie" --rpc-url 0.0.0.0:18444'
+
+
+sudo ./ord --regtest --cookie-file "/home/ubuntu64/.bitcoin/regtest/.cookie" --bitcoin-data-dir "/home/ubuntu64/.bitcoin/regtest/datadir"  --rpc-url 127.0.0.1:18443 info
+
+============  ./configure help =============
+https://bitzuma.com/posts/compile-bitcoin-core-from-source-on-ubuntu/
+
+(***
+sudo apt remove sqlite
+sudo apt remove sqlite3
+sudo apt-get install sqlite3
+**)
+
+./configure --enable-wallet -with-sqlite=yes
+--without-bdb
+

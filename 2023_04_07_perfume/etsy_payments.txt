@@ -1,0 +1,46 @@
+These are Etsy payments available countries.
+Australia
+ Austria
+ Belgium
+ Bulgaria*
+ Canada
+ Croatia*
+ Cyprus
+ Czech Republic*
+ Denmark
+ Estonia
+ Finland
+ France
+ Germany
+ Greece
+ Hong Kong
+ Hungary*
+ Indonesia
+ Ireland
+ Israel
+ Italy
+ Latvia
+ Lithuania
+ Luxembourg
+ Malaysia
+ Malta
+ Mexico
+ Morocco
+ Netherlands
+ New Zealand
+ Norway
+ Philippines
+ Poland*
+ Portugal
+ Romania*
+ Singapore
+ Slovakia
+ Slovenia
+ South Africa
+ Spain
+ Sweden
+ Switzerland
+ Türkiye
+ Great Britain
+ USA
+ Vietnam

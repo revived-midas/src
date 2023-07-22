@@ -1,0 +1,43 @@
+We run a HealthCare mobile application on GCP that uses Firestore, bonsai.io, and various other services. We would like to have someone implement something like Pomerium ZeroTrust for our organization, but also maintain and monitor.
+Read my job post carefully. Respond here (not on a call or in a chat or resume) for exactly how you can help my organization accomplish our goals and why you are best suited to do so.
+
+Access internal resources securely. Implement zero trust. Achieve compliance. All without the headache of a VPN.
+
+Zero Trust Is Incomplete Without Robust Mobile Security
+
+Zimperium has consistently demonstrated a true understanding of healthcare-specific risks, incredibly deep experience in mobile threats and a commitment to deliver on a detailed customer success plan.”
+
+The way we work has changed. People now work from anywhere, not just from an office. Applications are based in the cloud, not just on-premise. And the company network perimeter is now spread across the internet. Using a traditional, network-centric VPN for remote access is not only outdated and difficult to maintain, but exposes businesses to security breaches. VPN infrastructure is costly and time-consuming to procure, deploy, and maintain. Inability to secure access at the app level means hacks can expose whole networks. 
+
+Today, roughly 60% of an organization’s endpoints are mobile with very little if any security. While security and IT teams wouldn’t consider leaving laptop/desktop computers unprotected, thousands of mobile endpoints are accessing organization information with little security. This is where mobile endpoint security comes into play. This vulnerable endpoint has access and stores the same information as a traditional laptop or desktop endpoint, and yet is often left out of the conversation when it comes to information security.
+
+The most disparate and difficult security challenge for CISOs is ensuring that the thousands of endpoints in their organization are secure. The adoption of laptops created an enormous boost to productivity as organizations grew and expanded and their security was addressed with traditional solutions like endpoint protection platforms (EPP) and virtual private networks (VPN). But times are changing and the distributed workforce is increasingly mobile, and with that, the endpoints used for productivity have changed as well. In fact, 87% of enterprises rely on their employee’s ability to access mobile business apps from their personal smartphones.
+
+As it turns out, there are 7 primary mobile endpoint security issues CISOs face. While the first three are similar to traditional endpoints but need to be secured differently, four are unique to mobile:
+
+Corporate email
+Corporate apps
+Ransomware
+Microphone / camera
+Executive locations / calendars / contacts
+Entry point to network
+Username / passwords
+
+During Development
+Mobile app development teams are focused on getting features and functionality delivered quickly. But they also need to minimize vulnerabilities and secure critical assets.
+
+MAPS Capabilities:
+
+Continuously identifies security and compliance risks
+Quickly isolates vulnerable code and provides recommendations for easy fixing
+Integrates directly into the existing development process
+
+A Platform Approach to Mobile App Protection
+Mobile application risks start in development and persist throughout the app’s entire lifecycle, including when running on an end user’s device. Zimperium’s Mobile Application Protection Suite consists of four products with a centralized dashboard to view threats and create response policies. It is the only unified platform that combines centralized visibility with comprehensive in-app protection, combining both inside-out and outside-in security approaches to help enterprises build and maintain secure mobile apps.
+
+zScan: Discover and fix compliance, privacy, and security issues within the development process before you publicly release your apps.
+zKeyBox: Protect confidential data by securing cryptographic keys with white-box cryptography so they cannot be discovered, extracted, or manipulated.
+zShield: Harden and protect the app with advanced obfuscation and anti-tampering functionality to protect the source code, intellectual property (IP), and data within the application.
+zDefend: Enable the mobile application to detect and proactively protect itself by taking actions on the end user’s device, even without network connectivity.
+
+Hi, I am applying for your job post as I am an advanced web application developer with 8 years experience in web application development . I'm highly passionate about writing code, following good practices and top-notch technologies. I have been involved in many technological projects, in the field of business, government and health

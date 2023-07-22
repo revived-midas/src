@@ -1,0 +1,18 @@
+Hello. I hope you're well.
+
+We already have some computers ready for you to check out and start working, if possible. It's 4 computers, each of them has 4 GPUs, so I think any one of them can work as MASTER and the others as NODEs. The UBUNTU username is the same on all miner computers and the password too, which is tecsms2023X
+
+Also AnyDesk has been installed and they share the same password which is tecsms23 AnyDesk IDs are:
+- 875 069 067
+- 730 805 523
+- id: 1 170 251 436
+- id: 1 374 176 557
+
+
+username: UBUNTU
+pwd: tecsms2023X
+anydesk pwd: tecsms23
+
+190.113.110.0
+
+Master node in 842 853 958 and 3 slave node in other computers. Ok?

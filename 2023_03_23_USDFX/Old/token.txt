@@ -1,0 +1,37 @@
+DB_HOST=ls-f223e2fc3b4ea5c52c253222e13c510779d01072.colyvcobkfjk.ap-south-1.rds.amazonaws.com
+DB_USERNAME=dbmasteruser
+DB_PASSWORD=ApPLeDayMGYl453875
+
+
+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
+
+
+git.exe clone --progress -v "https://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@github.com/AmmaraZayaCapital/AffilesUSDFX.git" "C:\Users\Administrator\Downloads\AffilesUSDFX"
+
+git.exe clone --progress -v "https://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@github.com/AmmaraZayaCapital/AdminUSDFX.git" "C:\Users\Administrator\Downloads\AdminUSDFX"
+
+git.exe clone --progress -v "https://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@github.com/AmmaraZayaCapital/Affiles.git" "C:\Users\Administrator\Downloads\Affiles"
+
+git.exe clone --progress -v "https://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@github.com/AmmaraZayaCapital/swapcoin" "C:\Users\Administrator\Downloads\swapcoin"
+
+git.exe clone --progress -v "https://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@github.com/AmmaraZayaCapital/ScaleNovelty_Affiliate" "C:\Users\Administrator\Downloads\ScaleNovelty_Affiliate"
+
+git pull -q "https://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@github.com/AmmaraZayaCapital/AffilesUSDFX.git"
+git push -q "https://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@github.com/AmmaraZayaCapital/AffilesUSDFX.git"
+git pull -q "https://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@github.com/AmmaraZayaCapital/AdminUSDFX.git"
+
+git config --global user.name "HuntΞr"
+git config --global user.email "ifeelit416@gmail.com"
+
+git reset
+git push -q "https://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@github.com/AmmaraZayaCapital/USDFX_CLONE.git"
+
+git clone -b andrii --progress -v "https://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@github.com/AmmaraZayaCapital/USDFX_CLONE.git" "./htdocs"
+
+git pull --progress -v "https://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@github.com/AmmaraZayaCapital/USDFX_CLONE.git"
+
+git clone --progress -v "https://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@github.com/AmmaraZayaCapital/AffilesUSDFX.git" "./htdocs2"
+
+truncate -s 0 /app/storage/logs/laravel.log
+
+git push "https://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@github.com/AmmaraZayaCapital/AffilesUSDFX.git" origin hunter

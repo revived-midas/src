@@ -1,0 +1,11 @@
+Street: 6, Piispantilankuja
+
+Neighbourhood: Friisilä
+
+Suburb/City: Olari, Espoo
+
+County/Department: Uusimaa
+
+Postcode: 02240
+
+Country: Finland

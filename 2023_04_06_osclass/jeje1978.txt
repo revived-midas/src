@@ -1,0 +1,64 @@
+Hi, I'm looking for someone skilled in Osclass to customize the plug-in pay using the escrow method. Practically, the plugin must have an integrated collection service to generate awb and track the parcel to unlock the money (automatically) to the seller when the parcel is received by to the buyer. Long-term collaboration on various projects, not necessarily in osclass. I already have an integrated stripe account for receiving payments.
+
+So you can do this in the trustap (https://www.trustap.com/) type? Basically, I'm interested in inserting a button in certain categories when posting the ad and the sellers can tick if they want to collect the money on the card and not cash back like all the Romanian classifieds sites have. If they tick that they want the money on the card in the ad, a buy now button should appear so that the customer can pay for the product with the card. At that moment, escrow should start. The seller receives a notification, enters his account, generates awb at Cargus (example - depends on what Api integrate for parcel collection) Cargo comes, picks up the parcel, the client can track the parcel based on awb. The parcel arrives at the client and my classifieds site is notified that the parcel has been received, and within 24 hours if there are no problems with the parcel, regardless, let the payment go to the seller's account. That's about it in my view. Please give me a sign.
+
+My site is called www.zzbeng.ro
+
+Plus I still have some small changes to make for the site.
+
+In the near future I have an order from a client (still waiting) to make a customized zzbeng clone at his request. This project will be separated and paid better because I have a more generous budget. As for my project... it is poorer, because I don't collect money from it yet. And the budget is smaller. Please consider this in the final price.🙂
+
+https://www.trustap.com/
+
+This would be an example of how I want to fav
+
+I had an external link offer from trustap. But I don't want my users to leave the site and register on other platforms. I don't think I would have that chance. For this reason, I want to do it for myself so that the commission doesn't be that big
+
+Another way, obviously
+
+This is the Holly grall of osclass.I guess if you find a way you can sell your idea.
+
+If it helps you I also have Paypal so we can use for payments and traking. So we can release fouds to seller.
+https://www.angelleye.com/paypal-shipping-tracking-numbers-api-php/
+
+
+https://zzbeng.ro/anunturi-matrimoniale/anunturi-matrimoniale_1/eu-sint-placerea-ta-ador-tot-ce-vrei-tu_i11
+
+
+Navicat
+server.zzbeng.ro
+3306
+root
+root
+
+
+CREATE USER 'zzbeng_osclass'@'localhost' IDENTIFIED BY '_15o+CQU;D0N';
+
+SET PASSWORD FOR 'zzbeng_osclass'@'localhost' = PASSWORD('_15o+CQU;D0N');
+
+UPDATE mysql.user SET Password=PASSWORD('_15o+CQU;D0N') WHERE USER='root' AND Host='localhost';
+
+GRANT ALL PRIVILEGES ON zzbeng_osclass.* TO 'zzbeng_osclass'@'localhost';
+
+
+http://www.zzbeng.ro
+
+https://zzbeng.ro/oc-admin/index.php?page=login
+zbengadmin
+pass@adminzbeng
+
+test1
+test@password
+
+https://server.zzbeng.ro:2087/cpsess6387495360/?login=1&post_login=68205866687374
+root
+9EVFS9g5Rqn269bn
+test1
+test@password
+
+https://cpanel.zzbeng.ro/cpsess1226917125/frontend/paper_lantern/filemanager/index.html?dirselect=homedir&dir=public_html%2foc-content&login=1&post_login=94588893842326
+zzbeng
+iC5f&PCJB[[n
+
+
+oc-admin/themes/modern/main

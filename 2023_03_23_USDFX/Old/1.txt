@@ -1,0 +1,37 @@
+all this is connected to admin, all pages, and database,, noone is touching the admin page, all of them will just make the front
+
+on exchange: theres 2 function, - one is the centralized : which is users swap their balance internally, and the other will be the smart contract where they can swap USDT - USDFX , or BUSD -USDFX or BNB to USDFX or Polygon - USDFX, the process on exchange : is to allow users to swap their native coin to usdfx and it will send to their trustwallet immediately.
+
+by connecting to metamask or trust wallet, they will recv the token
+
+now how it works: user login to their account, and on the exchange they will select exchange , and next is that they will select trade, and when they click the trade button, they will need to connect to their metamask/trust
+
+
+1	User selects the "Exchange" option from the menu.				
+2	User selects the "Trade" option to initiate a swap.				
+3	User connects to their Metamask or Trust Wallet to authorize the swap.				
+4	The exchange checks if the selected swap is supported and if the user has sufficient balance to execute the swap.				
+5	If the swap is supported and the user has enough balance, the exchange calculates the exchange rate and the amount of USDFX the user will receive.				
+6	The exchange sends a request to the smart contract to initiate the swap and transfer the USDFX to the user's wallet.				
+7	The smart contract verifies the swap request and executes the swap by transferring the requested amount of USDFX to the user's wallet and deducting the corresponding amount of tokens from the exchange's balance.				
+8	The exchange updates the user's balance to reflect the executed swap.				
+9	The exchange notifies the user that the swap has been completed and the USDFX is now in their wallet.	
+
+
+
+now the process on centralized
+
+ 1	User logs in to their account on the exchange.
+2	User selects the "Exchange" option from the menu.
+3	User sees their available balances for USD, PHP, and USDFX in their portfolio balance.
+4	User selects the currency they want to convert from (either USD or PHP).
+5	User selects the currency they want to convert to (either PHP or USD for USD/PHP swap, or USDFX for USD/USDFX or PHP/USDFX swap).
+6	User enters the amount they want to convert in the "Amount" field.
+7	The exchange calculates the exchange rate and the amount of the target currency the user will receive.
+8	The exchange checks if the user has sufficient balance to execute the swap.
+9	If the user has enough balance, the exchange deducts the corresponding amount of tokens from the user's balance and updates their portfolio balance to reflect the executed swap.
+10	The exchange notifies the user that the swap has been completed and the target currency is now in their portfolio balance.
+	
+	Note that in the centralized swap scenario, there's no need to connect to Metamask or Trust Wallet since the swap is happening internally in the exchange.
+
+does this help?

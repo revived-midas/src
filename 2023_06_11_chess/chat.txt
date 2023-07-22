@@ -1,0 +1,65 @@
+let me explain how the "investment smart contract" will work.
+
+this is a new job, not part of the chess game:
+
+we will make a binance smart chain smart contract. it will be called "Crypto World Games investment contract" or something.
+
+so users can deposit USDC (bep20) into the smart contract.
+
+i will be able to take the usdc out when i need it, and i will use it to pay a developer to make any game i need. chess, survival, shooting game etc.
+
+each game we make, i'll tell dev, "each time someone pays to play, take 25% and send it to the investment smart contract"
+
+
+so as the profits come back into the smart contract, the "investors" can withdraw
+
+so the minimum investment is $10 usdc
+
+no maximum
+
+but there is a risk, since i do not guarantee they will get their money back, or break even, or profit its high risk.
+
+almost like they are giving me a loan and we hope we can make profitable games with their investment.
+
+but i want maybe 0% deposit fee, 0% withdrawal fee.
+when they invest, they get "staking credit" token.
+so this shows them how much of the pool they own.
+
+so the minimum they can withdraw is $10 usdc also
+
+they also must withdraw all, if they are going to withdraw
+
+so lets say bob invests $100 usdc today
+well i take the $100 usdc out and it shows $0 in the smart contract, that means, he can not withdraw his money back since i used it.
+
+
+
+lets say i paid developer to make a game and people start playing it. so in 1 month, 25% of all profits on the game went into the smart contract. there is now $200 in the smart contract. if bob was the only investor, he owns 100% of the pool, meaning he can withdraw $200 usdc.
+
+
+
+well almost 2 years ago i started hiring developer for survival game on unity but the dev quit and i wasted a lot of money. so recently someone in my telegram group said "this project is dead" so i wanted to get back into it. but i thought i need to do something small first so we can test a few developers to make sure they can do it. so i thought chess is good test. but now i think i need this investment contract first, so if i get investors, i have money to invest into the chess or survival project.
+
+
+ok give me quote.
+if i want a binance smart chain contract
+so users invest $10 OR MORE $USDC, then the site shows their investment, and shows total investments, and shows current amount in contract, and shows how much user can withdraw ($10 usdc minimum), 0% deposit fee, 0% withdraw fee, how much would this cost? i have hosting for a website so you could make the simple html or what it takes to view it on a website. what would that cost me?
+
+
+this is a little like those trx dapp games where people invest and it charges 10% deposit and 10% withdraw fee, then the fees are shared among users. but in this case, there are no fees. in the old trx dapp games, they are very risky. some say, if you deposit, you can withdraw 10-25% of your deposit amount, every day, forever! (as long as the contract has a balance).
+well those are not safe, they will run out of money and everyone is mad, so i do not want a scam like that. this is basically a place to deposit usdc, i use it for my development, then i will do profit sharing with the investors. this smart contract is simply helping us all see how much each person invests, so that they can get rewarded according to how much they invest. maybe a pool % or something. or, maybe a set amount, they can earn "up to 125% of their original investment" as long as the contract has the money. so it will take a while for it to happen ,but when they earn 125% then thats it, they dont earn "forever."
+
+
+well i think we make it clear, all investment is at risk. and basically the investment is a donation, but if we profit, we give back, if we dont, then i'm sorry.
+
+but it will be 100% transparent.
+
+
+
+there are a few ways
+1. they invest and get a pool % ownership and as long as they are invested, they can get profits forever
+2. they invest and get pool % and if invested, they "may" earn up to 110% to 200% of their investment amount (if) we ever get that much profit coming in.
+3. if they invest, they own a % of the pool, they never get their original investment back in full, but, from now on, they still get a % of the pool.
+so lets say they invest $100 then someone else invests $200. then player 1 gets 33% of the balance of the contract and another gets 66% of the balance.
+so if we only put in $100 into the contract then player 1 could withdraw $33 and player 2 can withdraw $66.
+so they only withdraw a % of whats available each 24 hours. or something like that?

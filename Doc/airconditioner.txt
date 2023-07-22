@@ -1,0 +1,13 @@
+模式 (Móshì)        model
+享 (Xiǎng)      Enjoy
+风速 (Fēngsù)        wind speed
+制冷 (Zhìlěng)        Refrigeration
+制热 (ZhìRè)      Heating
+上下扫风 (Shàngxià sǎo fēng)        Sweep up and down
+左右扫风 (Zuǒyòu sǎo fēng)        Sweep left and right
+静音 (Jìngyīn)        Mute
+强劲 (Qiángjìng)        strong
+定时 (Dìngshí)        timing
+灯光 (Dēngguāng)        light
+干燥辅热 (Gānzào fǔ rè)        Drying auxiliary heat
+睡眠 (Shuìmián)        to sleep

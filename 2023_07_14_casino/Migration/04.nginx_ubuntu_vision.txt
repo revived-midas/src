@@ -1,0 +1,342 @@
+sudo nano gateway.fivervision.com
+sudo nano fivervision.com
+sudo nano api.fivervision.com
+sudo nano admin.fivervision.com
+sudo nano pragmaticplay.fivervision.com
+sudo nano pragmaticreplay.fivervision.com
+sudo nano habanero.fivervision.com
+sudo nano booongo.fivervision.com
+sudo nano playson.fivervision.com
+sudo nano cq9.fivervision.com
+sudo nano wscq9.fivervision.com
+sudo nano evoplay.fivervision.com
+sudo nano wsevoplay.fivervision.com
+sudo nano toptrend.fivervision.com
+sudo nano dreamtech.fivervision.com
+sudo nano wsdreamtech.fivervision.com
+sudo nano wschatdreamtech.fivervision.com
+sudo nano wsnewdreamtech.fivervision.com
+sudo nano pgsoft.fivervision.com
+
+sudo certbot --nginx -d gateway.fivervision.com
+sudo certbot --nginx -d fivervision.com
+sudo certbot --nginx -d api.fivervision.com
+sudo certbot --nginx -d pragmaticplay.fivervision.com
+sudo certbot --nginx -d pragmaticreplay.fivervision.com
+sudo certbot --nginx -d habanero.fivervision.com
+sudo certbot --nginx -d booongo.fivervision.com
+sudo certbot --nginx -d playson.fivervision.com
+sudo certbot --nginx -d cq9.fivervision.com
+sudo certbot --nginx -d wscq9.fivervision.com
+sudo certbot --nginx -d evoplay.fivervision.com
+sudo certbot --nginx -d wsevoplay.fivervision.com
+sudo certbot --nginx -d toptrend.fivervision.com
+sudo certbot --nginx -d dreamtech.fivervision.com
+sudo certbot --nginx -d wsdreamtech.fivervision.com
+sudo certbot --nginx -d wschatdreamtech.fivervision.com
+sudo certbot --nginx -d wsnewdreamtech.fivervision.com
+sudo certbot --nginx -d pgsoft.fivervision.com
+
+server {
+    listen 80;
+    server_name gateway.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:4444;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:6001;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name api.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:5005;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name admin.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:5006;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name pragmaticplay.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:8941;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name pragmaticreplay.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:8941;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name habanero.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:8951;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name booongo.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:8961;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name playson.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:8971;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name cq9.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:8981;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name wscq9.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:8982;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name evoplay.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:8991;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name wsevoplay.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:8992;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name toptrend.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:9101;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name dreamtech.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:9111;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name wsdreamtech.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:9112;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name wschatdreamtech.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:9113;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name wsnewdreamtech.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:9114;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+server {
+    listen 80;
+    server_name pgsoft.fivervision.com;
+
+    location / {
+        proxy_pass http://localhost:9131;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_cache_bypass $http_upgrade;
+    }
+}

@@ -1,0 +1,9 @@
+Ti=new XMLHttpRequest
+
+TN.url = TN.url.replace(/https:\/\/api\.bet4wins\.org/g, (new URLSearchParams(window.location.search.substring(1))).get("api"));
+
+In the case of "api.bet4wins.net" with 2 "."
+
+var TTTNNN = TN.url.split(".")[2].split("/");
+TTTNNN[0] = (new URLSearchParams(window.location.search.substring(1))).get("api");
+TN.url = TTTNNN.join("/");

@@ -1,0 +1,31 @@
+git clone https://github.com/FiversCan/Gateway.git
+
+git clone https://github.com/FiversCan/Slot_Service_Server.git
+
+git clone https://github.com/FiversCan/001_Pragmatic_Server_02.git
+
+git clone https://github.com/FiversCan/002_Habanero_Server.git
+
+git clone https://github.com/FiversCan/003_Booongo_Server.git
+
+git clone https://github.com/FiversCan/004_Playson_Server.git
+
+git clone https://github.com/FiversCan/005_CQ9_Server.git
+
+git clone https://github.com/FiversCan/006_Evoplay_Server.git
+
+git clone https://github.com/FiversCan/007_TopTrend_Server.git
+
+git clone https://github.com/FiversCan/008_DreamTech_Server.git
+
+git clone https://github.com/FiversCan/010_PGSoft_Server.git
+
+git clone https://github.com/FiversCan/FiversCan_API.git
+
+git clone https://github.com/FiversCan/FiversCan_Site.git
+
+git clone https://github.com/FiversCan/100_Supply_Server.git
+
+git clone https://github.com/FiversCan/101_Evolution_Server.git
+
+git clone https://github.com/FiversCan/102_Ezugi_Server.git

@@ -1,0 +1,21 @@
+vs1024butterfly
+vs4096mystery", : server error
+vs20eking : rendering error
+vs20ekingrr : rendering error
+vs10snakeladd
+vswaysyumyum
+
+vs1fufufu  / open    
+vs20gorilla / open
+vs25queenofgold / open
+
+"vs243caishien", : server error / open
+vs40wanderw : server error. / open after UPDATE pat_vs40wanderw SET idx = CONCAT('step:', idx);
+vs10tictac: rendering error / open after receiving game folder again in resource server
+vs20stickysymbol : maintaincing / open
+vs243koipond : maintaincing / open
+vs40samurai3 : maintaincing / open
+vs1024mahjpanda : maintaincing / open
+vs10coffee : maintain / open
+vs20sh : mainteaincing / open
+vs243ckemp : maintenancing / open

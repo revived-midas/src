@@ -1,0 +1,63 @@
+cd Gateway
+npm i
+cd ..
+
+cd Slot_Service_Server
+npm i
+cd ..
+
+cd 001_Pragmatic_Server_02
+npm i
+cd ..
+
+cd 002_Habanero_Server
+npm i
+cd ..
+
+cd 003_Booongo_Server
+npm i
+cd ..
+
+cd 004_Playson_Server
+npm i
+cd ..
+
+cd 005_CQ9_Server
+npm i
+cd ..
+
+cd 006_Evoplay_Server
+npm i
+cd ..
+
+cd 007_TopTrend_Server
+npm i
+cd ..
+
+cd 008_DreamTech_Server
+npm i
+cd ..
+
+cd 010_PGSoft_Server
+npm i
+cd ..
+
+cd FiversCan_API
+npm i
+cd ..
+
+cd FiversCan_Site
+npm i
+cd ..
+
+cd 100_Supply_Server
+npm i
+cd ..
+
+cd 101_Evolution_Server
+npm i
+cd ..
+
+cd 102_Ezugi_Server
+npm i
+cd ..

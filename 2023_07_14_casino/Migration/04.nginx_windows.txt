@@ -1,0 +1,662 @@
+
+#user  nobody;
+worker_processes  1;
+
+#error_log  logs/error.log;
+#error_log  logs/error.log  notice;
+#error_log  logs/error.log  info;
+
+#pid        logs/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+    server_names_hash_bucket_size 64;
+
+    #log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+    #                  '$status $body_bytes_sent "$http_referer" '
+    #                  '"$http_user_agent" "$http_x_forwarded_for"';
+
+    #access_log  logs/access.log  main;
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    #keepalive_timeout  0;
+    keepalive_timeout  65;
+
+    #gzip  on;
+
+    server {
+        listen       80;
+        server_name  localhost;
+
+        #charset koi8-r;
+
+        #access_log  logs/host.access.log  main;
+
+        location / {
+            root   html;
+            index  index.html index.htm;
+        }
+
+        #error_page  404              /404.html;
+
+        # redirect server error pages to the static page /50x.html
+        #
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   html;
+        }
+
+        # proxy the PHP scripts to Apache listening on 127.0.0.1:80
+        #
+        #location ~ \.php$ {
+        #    proxy_pass   http://127.0.0.1;
+        #}
+
+        # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
+        #
+        #location ~ \.php$ {
+        #    root           html;
+        #    fastcgi_pass   127.0.0.1:9000;
+        #    fastcgi_index  index.php;
+        #    fastcgi_param  SCRIPT_FILENAME  /scripts$fastcgi_script_name;
+        #    include        fastcgi_params;
+        #}
+
+        # deny access to .htaccess files, if Apache's document root
+        # concurs with nginx's one
+        #
+        #location ~ /\.ht {
+        #    deny  all;
+        #}
+    }
+
+
+    # another virtual host using mix of IP-, name-, and port-based configuration
+    #
+    #server {
+    #    listen       8000;
+    #    listen       somename:8080;
+    #    server_name  somename  alias  another.alias;
+
+    #    location / {
+    #        root   html;
+    #        index  index.html index.htm;
+    #    }
+    #}
+
+
+    # HTTPS server
+    #
+    #server {
+    #    listen       443 ssl;
+    #    server_name  localhost;
+
+    #    ssl_certificate      cert.pem;
+    #    ssl_certificate_key  cert.key;
+
+    #    ssl_session_cache    shared:SSL:1m;
+    #    ssl_session_timeout  5m;
+
+    #    ssl_ciphers  HIGH:!aNULL:!MD5;
+    #    ssl_prefer_server_ciphers  on;
+
+    #    location / {
+    #        root   html;
+    #        index  index.html index.htm;
+    #    }
+    #}
+
+
+    # fiverscan.com API
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name fiverscan.com;
+
+        ssl_certificate C:/Certbot/live/fiverscan.com/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/fiverscan.com/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:5006;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name api.fiverscan.com;
+
+        ssl_certificate C:/Certbot/live/api.fiverscan.com/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/api.fiverscan.com/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:5005;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+
+    # bet4wins.org Game
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name gateway.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/gateway.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/gateway.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:4444;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name promo.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/promo.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/promo.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:3434;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name pragmaticplay.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/pragmaticplay.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/pragmaticplay.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:8941;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name pragmaticreplay.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/pragmaticreplay.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/pragmaticreplay.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:8941;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name habanero.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/habanero.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/habanero.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:8951;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name booongo.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/booongo.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/booongo.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:8961;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name playson.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/playson.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/playson.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:8971;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name cq9.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/cq9.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/cq9.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:8981;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name wscq9.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/wscq9.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/wscq9.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:8982;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name evoplay.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/evoplay.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/evoplay.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:8991;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name wsevoplay.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/wsevoplay.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/wsevoplay.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:8992;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name toptrend.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/toptrend.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/toptrend.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:9101;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name dreamtech.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/dreamtech.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/dreamtech.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:9111;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name wsdreamtech.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/wsdreamtech.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/wsdreamtech.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:9112;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name wschatdreamtech.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/wschatdreamtech.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/wschatdreamtech.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:9113;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name wsnewdreamtech.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/wsnewdreamtech.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/wsnewdreamtech.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:9114;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name pgsoft.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/pgsoft.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/pgsoft.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:9131;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name supply.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/supply.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/supply.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:4242;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name evolution.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/evolution.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/evolution.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:10010;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name ezugi.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/ezugi.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/ezugi.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:10020;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+
+    # Resource
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name assets.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/assets.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/assets.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:8989;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+
+    # Resource
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name pgassets.bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/pgassets.bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/pgassets.bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:9139;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+
+    # Resource
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name assets.fivervision.com;
+
+        ssl_certificate C:/Certbot/live/assets.fivervision.com/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/assets.fivervision.com/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:9898;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+
+    #Site
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name bet4wins.org;
+
+        ssl_certificate C:/Certbot/live/bet4wins.org/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/bet4wins.org/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:6002;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name ppnp-7878.com;
+
+        ssl_certificate C:/Certbot/live/ppnp-7878.com/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/ppnp-7878.com/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:8001;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+    server {
+        listen 80;
+        listen 443 ssl;
+        server_name betsett.site;
+
+        ssl_certificate C:/Certbot/live/betsett.site/fullchain.pem;
+        ssl_certificate_key C:/Certbot/live/betsett.site/privkey.pem;
+
+        location / {
+            proxy_pass http://localhost:7001;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Connection "Upgrade";
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+}

@@ -1,0 +1,1 @@
+("100_joker_staxx", "40_joker_staxx", "buffalo_xmas", "9_happy_pharaohs", "legend_of_cleopatra", "book_of_gold", "burning_fort", "burning_wins", "book_of_gold_choice", "pearl_beauty", "book_of_gold_dh", "jokers_coins", "book_of_gold_classic", "hand_of_gold", "diamond_wins", "book_of_gold_multichance")

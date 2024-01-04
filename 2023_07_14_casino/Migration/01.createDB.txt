@@ -1,0 +1,40 @@
+CREATE DATABASE `000.demo_db` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+CREATE DATABASE `001.bet4wins_db` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+CREATE DATABASE `101.betsett_db` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+CREATE DATABASE `201.ppnp_7878_db` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+CREATE DATABASE `pragmatic` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+
+CREATE DATABASE `slot_gateway` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+
+
+CREATE DATABASE `fiverslive` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+
+CREATE DATABASE `evolution` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+CREATE DATABASE `ezugi` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+
+CREATE DATABASE `pragmatic_02` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+CREATE DATABASE `pragmatic_pattern` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+
+CREATE DATABASE `habanero` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+CREATE DATABASE `habanero_pattern` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+
+CREATE DATABASE `booongo` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+CREATE DATABASE `booongo_pattern` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+
+CREATE DATABASE `playson` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+CREATE DATABASE `playson_pattern` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+
+CREATE DATABASE `cqnine` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+CREATE DATABASE `cqnine_pattern` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+
+CREATE DATABASE `evoplay` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+CREATE DATABASE `evoplay_pattern` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+
+CREATE DATABASE `toptrend` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+CREATE DATABASE `toptrend_pattern` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+
+CREATE DATABASE `dtgame` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+CREATE DATABASE `dtgame_pattern` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+
+CREATE DATABASE `pgsoft` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';
+CREATE DATABASE `pgsoft_pattern` CHARACTER SET 'utf8mb3' COLLATE 'utf8mb3_general_ci';

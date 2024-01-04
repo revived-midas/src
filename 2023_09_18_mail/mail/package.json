@@ -1,0 +1,23 @@
+{
+  "name": "mail-sender",
+  "version": "1.0.0",
+  "description": "To send emails to contact support and affiliate support about suggestion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revived-midas/suggestion-mail-sender.git"
+  },
+  "keywords": [
+    "mail",
+    "suggestion"
+  ],
+  "author": "Andrew JackSon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/revived-midas/suggestion-mail-sender/issues"
+  },
+  "homepage": "https://github.com/revived-midas/suggestion-mail-sender#readme"
+}

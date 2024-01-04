@@ -1,0 +1,17 @@
+cp logconfig.json ./001_Pragmatic_Server_02
+
+cp logconfig.json ./002_Habanero_Server
+
+cp logconfig.json ./003_Booongo_Server
+
+cp logconfig.json ./004_Playson_Server
+
+cp logconfig.json ./005_CQ9_Server
+
+cp logconfig.json ./006_Evoplay_Server
+
+cp logconfig.json ./007_TopTrend_Server
+
+cp logconfig.json ./008_DreamTech_Server
+
+cp logconfig.json ./010_PGSoft_Server
